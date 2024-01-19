@@ -12,9 +12,10 @@ Functions
 
 const ars = ["sdad","dsdsa"]
 
-let myFunc = function(){
-    console.log("sdsad")
+function test(str1,str2){
+    console.log(str1 +" "+ str2)
 }
 
+test("dsadad",23)
 console.log(typeof ars);
 console.log(typeof myFunc);
