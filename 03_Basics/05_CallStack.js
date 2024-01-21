@@ -15,6 +15,4 @@ After the creation phase completed, the execution phase begins where actual valu
 1. Memory phase 
 2. Execution phase 
 📝The return value of the 'Function Execution' context is passed to the Global Execution Context
-
-
 */
