@@ -6,8 +6,25 @@
 </head>
 <body>
     <div class="bg-black">
-        <h1 id="title>DOM Learning</h1>
+        <h1 id="title">DOM Learninssg</h1>
         <p>Lorem ipsum dolor</p>
+        <button id="stop">Stop</button>
     </div>
 </body>
-</html>
+    <script>
+        setTimeout(()=>{
+            console.log("Kuldeep");
+        },2000)
+
+        const changeHeading = setTimeout(() => {
+            document.querySelector('h1').innerHTML = "Hiiiiiiiii"
+        },2000)
+
+      
+        document.querySelector('#stop').addEventListener('click',()=>{
+            clearTimeout(changeHeading)
+            console.log("Stopped");
+        })
+
+    </script>
+</html> 
